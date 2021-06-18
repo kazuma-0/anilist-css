@@ -1,0 +1,194 @@
+$tbg: transparent !important;
+$bgimg: url();
+$shadow: 0 0 5px 0 black;
+$primary: rgb(0, 0, 30);
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap");
+
+* {
+    font-family: "Fira Sans", Roboto, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+        Helvetica Neue, sans-serif;
+}
+/*nav bar background*/
+div.nav {
+    background: $tbg;
+
+    .wrap {
+        /*anilist logo*/
+        .logo {
+            img {
+                display: none;
+            }
+            &:after {
+                content: "";
+                height: 50px;
+                width: 50px;
+                background-image: $bgimg;
+            }
+        }
+        .links {
+            /*browse section*/
+            .browse-wrap {
+                display: none;
+            }
+        }
+    }
+}
+
+.header-wrap {
+    .banner {
+        background-image: none;
+        background: $tbg;
+    }
+
+    .container {
+    }
+}
+
+.page-content {
+    background: $primary;
+    /*background-image:url();
+    background-repeat: none;*/
+    .user {
+        .header-wrap {
+            .nav-wrap {
+                margin-top: 15px;
+                background: $tbg;
+
+                .container {
+                    background: black !important;
+                    border-radius: 6px;
+                    box-shadow: 0 0 5px 0 black;
+
+                    a {
+                        &:hover {
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+            }
+        }
+        .content.container {
+            .overview {
+                .section {
+                    .stats-wrap {
+                        .list-stats.content-wrap {
+                            background: black;
+                            box-shadow: $shadow;
+                            border-radius: 6px;
+
+                            &:nth-child(2) {
+                                margin-top: 10px;
+                            }
+                            /*status wrap footer*/
+                            .footer {
+                                display: none;
+                            }
+                        }
+                    }
+                    .about {
+                        .content-wrap {
+                            background: black;
+                            box-shadow: $shadow;
+                            border-radius: 6px;
+                        }
+                    }
+                    .desktop {
+                        .activity-history {
+                            background: black;
+                            box-shadow: $shadow;
+                            border-radius: 6px;
+                        }
+
+                        .genre-overview {
+                            background: black;
+                            box-shadow: $shadow;
+                            border-radius: 6px;
+                        }
+
+                        .favourites-wrap {
+                            background: black !important;
+                            box-shadow: $shadow;
+                            border-radius: 6px;
+                            padding: 10px !important;
+                        }
+                    }
+                    .activity-feed-wrap {
+                        .activity-edit {
+                            .markdown-editor {
+                                background: black !important;
+                                box-shadow: $shadow;
+                                border-radius: 6px;
+                            }
+                            .preview.activity-text {
+                                .wrap {
+                                    background: black !important;
+                                    box-shadow: $shadow;
+                                    border-radius: 6px;
+                                }
+                            }
+                            .input {
+                                padding-bottom: 0;
+                                textarea {
+                                    padding: none;
+                                    background: black !important;
+                                    box-shadow: $shadow;
+                                    border-radius: 6px;
+                                }
+                            }
+                            .actions {
+                                .cancel {
+                                    color: red;
+                                    background: black !important;
+                                    box-shadow: $shadow;
+                                    border-radius: 6px;
+                                }
+                                .save {
+                                    color: white;
+                                    background: black !important;
+                                    box-shadow: $shadow;
+                                    border-radius: 6px;
+                                }
+                            }
+                            .reply {
+                                background: black !important;
+                                box-shadow: $shadow;
+                                border-radius: 6px;
+                            }
+                        }
+                        .activity-feed {
+                            .activity-entry {
+                                .wrap {
+                                    background: black !important;
+                                    box-shadow: $shadow;
+                                    border-radius: 6px;
+                                    color: antiquewhite;
+                                }
+                                .reply-wrap {
+                                    .activity-replies {
+                                        .reply {
+                                            background: black !important;
+                                            box-shadow: $shadow;
+                                            border-radius: 6px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .scroller {
+                        .load-more {
+                            background: black !important;
+                            box-shadow: $shadow;
+                            border-radius: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.wrap[data-v-a5dce466] {
+    display: none;
+}
