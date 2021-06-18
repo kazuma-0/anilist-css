@@ -1,1 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap");
+* {
+  font-family: "Fira Sans", Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
 
+/*nav bar background*/
+div.nav {
+  background: transparent !important;
+}
+div.nav .wrap {
+  /*anilist logo*/
+}
+div.nav .wrap .logo img {
+  display: none;
+}
+div.nav .wrap .logo:after {
+  content: "";
+  height: 50px;
+  width: 50px;
+  background-image: url();
+}
+div.nav .wrap .links {
+  /*browse section*/
+}
+div.nav .wrap .links .browse-wrap {
+  display: none;
+}
+
+.header-wrap .banner {
+  background-image: none;
+  background: transparent !important;
+}
+.page-content {
+  background: #00001e;
+  /*background-image:url();
+  background-repeat: none;*/
+}
+.page-content .user .header-wrap .nav-wrap {
+  margin-top: 15px;
+  background: transparent !important;
+}
+.page-content .user .header-wrap .nav-wrap .container {
+  background: black !important;
+  border-radius: 6px;
+  box-shadow: 0 0 5px 0 black;
+}
+.page-content .user .header-wrap .nav-wrap .container a:hover {
+  transform: scale(1.2);
+}
+.page-content .user .content.container .overview .section .stats-wrap .list-stats.content-wrap {
+  background: black;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+  /*status wrap footer*/
+}
+.page-content .user .content.container .overview .section .stats-wrap .list-stats.content-wrap:nth-child(2) {
+  margin-top: 10px;
+}
+.page-content .user .content.container .overview .section .stats-wrap .list-stats.content-wrap .footer {
+  display: none;
+}
+.page-content .user .content.container .overview .section .about .content-wrap {
+  background: black;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+}
+.page-content .user .content.container .overview .section .desktop .activity-history {
+  background: black;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+}
+.page-content .user .content.container .overview .section .desktop .genre-overview {
+  background: black;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+}
+.page-content .user .content.container .overview .section .desktop .favourites-wrap {
+  background: black !important;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+  padding: 10px !important;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .markdown-editor {
+  background: black !important;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .preview.activity-text .wrap {
+  background: black !important;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .input {
+  padding-bottom: 0;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .input textarea {
+  padding: none;
+  background: black !important;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .actions .cancel {
+  color: red;
+  background: black !important;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .actions .save {
+  color: white;
+  background: black !important;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .reply {
+  background: black !important;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-feed .activity-entry .wrap {
+  background: black !important;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+  color: antiquewhite;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-feed .activity-entry .reply-wrap .activity-replies .reply {
+  background: black !important;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+}
+.page-content .user .content.container .overview .section .scroller .load-more {
+  background: black !important;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 6px;
+}
+
+.wrap[data-v-a5dce466] {
+  display: none;
+}
