@@ -1,0 +1,39 @@
+on:
+  push:
+    branches:
+      - master
+  pull-request:
+    branches:
+      - master
+
+name: compile sass to css
+jobs:
+  build:
+    name: compile sass to css
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+
+    steps:
+      - name: Checkout Branch
+        uses: actions/checkout@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - run: npm install
+      - run: npm run compile
+        continue-on-error: true
+
+      
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@master
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: src/dist
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
