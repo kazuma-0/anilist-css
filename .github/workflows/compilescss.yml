@@ -1,10 +1,10 @@
 on:
   push:
     branches:
-      - master
+      - main
   pull-request:
     branches:
-      - master
+      - main
 
 name: compile sass to css
 jobs:
