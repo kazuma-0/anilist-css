@@ -1,0 +1,15 @@
+{
+  "name": "anilist-css",
+  "version": "1.0.0",
+  "description": "compiles scss to css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test",
+    "compile": "sass --no-source-map src/anilist.scss src/dist/anilist.css"
+  },
+  "author": "kazuma",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}
