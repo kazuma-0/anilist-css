@@ -26,6 +26,7 @@ div.nav .wrap .links .browse-wrap {
 .header-wrap .banner .shadow {
   display: none;
 }
+
 .page-content {
   background: #00001e;
 }
@@ -56,6 +57,27 @@ div.nav .wrap .links .browse-wrap {
   background: black !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+}
+.page-content .user .content.container .overview .section .about .content-wrap .markdown center div {
+  border-radius: 6px;
+  box-shadow: 0 0 5px 0 black;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  padding: 5px;
+  animation-name: rainbow !important;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+.page-content .user .content.container .overview .section .about .content-wrap .markdown center div a {
+  color: black !important;
+  animation: none;
+  font-weight: bold !important;
+}
+.page-content .user .content.container .overview .section .about .content-wrap .markdown center div:hover {
+  transition: 1s;
+  transform: scale(1.2);
 }
 .page-content .user .content.container .overview .section .desktop .activity-history {
   background: black !important;
