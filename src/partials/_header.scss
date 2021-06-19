@@ -1,12 +1,9 @@
 .header-wrap {
-    .banner {
-        background-image: none;
-        background: $tbg;
-        .shadow{
-            display: none;
-        }
-    } 
-
-    .container {
+  .banner {
+    background-image: none;
+    background: $tbg;
+    .shadow {
+      display: none;
     }
+  }
 }

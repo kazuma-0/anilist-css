@@ -1,22 +1,22 @@
 div.nav {
-    background: $tbg;
+  background: $tbg;
 
-    .wrap {
-        .logo {
-            img {
-                display: none;
-            }
-            &:after {
-                content: "";
-                height: 50px;
-                width: 50px;
-                background-image: $bgimg;
-            }
-        }
-        .links {
-            .browse-wrap {
-                display: none;
-            }
-        }
+  .wrap {
+    .logo {
+      img {
+        display: none;
+      }
+      &:after {
+        content: "";
+        height: 50px;
+        width: 50px;
+        background-image: $bgimg;
+      }
     }
+    .links {
+      .browse-wrap {
+        display: none;
+      }
+    }
+  }
 }
