@@ -1,0 +1,110 @@
+.page-content {
+    background: $page-content;
+     .user {
+        .header-wrap {
+            .nav-wrap {
+                margin-top: 15px;
+                background: $tbg;
+
+                .container {
+                    @include container-mod;
+                    a {
+                        &:hover {
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+            }
+        }
+        .content.container {
+            .overview {
+                .section {
+                    .stats-wrap {
+                        .list-stats.content-wrap {
+                            @include container-mod;
+                            &:nth-child(2) {
+                                margin-top: 10px;
+                            }
+                            .footer {
+                                display: none;
+                            }
+                        }
+                    }
+                    .about {
+                        .content-wrap {
+                            @include container-mod;
+                        }
+                    }
+                    .desktop {
+                        .activity-history {
+                            @include container-mod;
+                        }
+
+                        .genre-overview {
+                            @include container-mod;
+                        }
+
+                        .favourites-wrap {
+                            @include container-mod;
+                            padding: 10px !important;
+                        }
+                    }
+                    .activity-feed-wrap {
+                        .activity-edit {
+                            .markdown-editor {
+                                @include container-mod;
+                            }
+                            .preview.activity-text {
+                                .wrap {
+                                    @include container-mod;
+                                }
+                            }
+                            .input {
+                                padding-bottom: 0;
+                                textarea {
+                                    padding: none;
+                                    @include container-mod;
+                                }
+                            }
+                            .actions {
+                                .cancel {
+                                    color: red;
+                                    @include container-mod;
+                                }
+                                .save {
+                                    color: white;
+                                    @include container-mod;
+                                }
+                            }
+                            .reply {
+                                @include container-mod;
+                            }
+                        }
+                        .activity-feed {
+                            .activity-entry {
+                                .wrap {
+                                    @include container-mod;
+                                    color: antiquewhite;
+                                }
+                                .reply-wrap {
+                                    .activity-replies {
+                                        .reply {
+                                            @include container-mod;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .scroller {
+                        .load-more {
+                            background: black !important;
+                            box-shadow: $shadow;
+                            border-radius: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
