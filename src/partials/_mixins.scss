@@ -1,0 +1,5 @@
+@mixin container-mod{
+	background: $primary;
+	border-radius: $radius;
+	box-shadow: $shadow;
+}
