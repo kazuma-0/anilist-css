@@ -151,3 +151,35 @@ div.nav .wrap .links .browse-wrap {
 .wrap[data-v-a5dce466] {
   display: none;
 }
+
+.content.container .medialist .row {
+  background: black !important;
+}
+.content.container .medialist .filters-wrap input {
+  background: black !important;
+}
+.content.container .medialist .filters-wrap .filer-mobile-wrap .entry-filer input {
+  background: black !important;
+}
+.content.container .medialist .filters-wrap .filters .filter-group .input {
+  background: black !important;
+}
+.content.container .medialist .filters-wrap .filters .filter-group .active {
+  background: black !important;
+}
+.content.container .medialist .filters-wrap .filters .filter-group .format div input {
+  background: black !important;
+}
+.content.container .medialist .filters-wrap .filters .filter-group .format div span span {
+  background: #00001e;
+}
+.content.container .medialist .lists .actions .theme-switch {
+  background: black !important;
+}
+
+.el-select-dropdown.el-popper .el-scrollbar div ul {
+  background: black !important;
+}
+.el-select-dropdown.el-popper .el-scrollbar div ul li:hover {
+  color: #00001e;
+}
