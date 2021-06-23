@@ -3,20 +3,54 @@
   font-family: "Fira Sans", Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-div.nav {
-  background: transparent !important;
+@keyframes avatarAnimation {
+  to {
+    transform: rotate(360deg);
+  }
 }
-div.nav .wrap .logo img {
-  display: none;
+@keyframes linkColors {
+  0% {
+    color: #e6aaff;
+  }
+  50% {
+    color: #67ff65;
+  }
+  100% {
+    color: #47d0ef;
+  }
 }
-div.nav .wrap .logo:after {
-  content: "";
-  height: 50px;
-  width: 50px;
-  background-image: url();
+@keyframes btnAnimation {
+  0% {
+    top: -110%;
+    left: 90%;
+  }
+  50% {
+    top: 10%;
+    left: -30%;
+  }
+  100% {
+    top: -100%;
+    left: -100%;
+  }
 }
-div.nav .wrap .links .browse-wrap {
-  display: none;
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d885ff;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(13deg, #d371f7 14%, #ea61ff 64%);
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+  border-radius: 8px;
+  box-shadow: inset 7px 10px 12px #302d2d;
 }
 
 .header-wrap .banner {
@@ -27,25 +61,55 @@ div.nav .wrap .links .browse-wrap {
   display: none;
 }
 
+div.nav {
+  background: transparent !important;
+}
+div.nav .wrap .logo img {
+  display: none;
+}
+div.nav .wrap .logo:after {
+  content: "";
+  height: 50px;
+  width: 50px;
+  background-image: url("https://host.nyaator.co/$/rHERn");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+div.nav .wrap .links .browse-wrap {
+  display: none;
+}
+
+.wrap[data-v-a5dce466] {
+  display: none;
+}
+
 .page-content {
   background: #00001e;
+  background-image: url("https://host.nyaator.co/$/hfg17");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .page-content .user .header-wrap .nav-wrap {
   margin-top: 15px;
   background: transparent !important;
 }
 .page-content .user .header-wrap .nav-wrap .container {
-  background: black !important;
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
+  background: black !important;
 }
 .page-content .user .header-wrap .nav-wrap .container a:hover {
   transform: scale(1.2);
 }
 .page-content .user .content.container .overview .section .stats-wrap .list-stats.content-wrap {
-  background: black !important;
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
 }
 .page-content .user .content.container .overview .section .stats-wrap .list-stats.content-wrap:nth-child(2) {
   margin-top: 10px;
@@ -54,9 +118,11 @@ div.nav .wrap .links .browse-wrap {
   display: none;
 }
 .page-content .user .content.container .overview .section .about .content-wrap {
-  background: black !important;
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
 }
 .page-content .user .content.container .overview .section .about .content-wrap .markdown center div {
   border-radius: 6px;
@@ -80,105 +146,167 @@ div.nav .wrap .links .browse-wrap {
   transform: scale(1.2);
 }
 .page-content .user .content.container .overview .section .desktop .activity-history {
-  background: black !important;
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
 }
 .page-content .user .content.container .overview .section .desktop .genre-overview {
-  background: black !important;
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
 }
 .page-content .user .content.container .overview .section .desktop .favourites-wrap {
-  background: black !important;
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
   padding: 10px !important;
 }
-.page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .markdown-editor {
-  background: black !important;
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .list-stats.content-wrap {
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .list-stats.content-wrap:nth-child(2) {
+  margin-top: 10px;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .list-stats.content-wrap .footer {
+  display: none;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .markdown-editor {
+  background: #00000080 !important;
+  border-radius: 6px;
+  box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .preview.activity-text .wrap {
-  background: black !important;
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .input {
   padding-bottom: 0;
+  background: #00000080 !important;
+  border-radius: 6px;
+  box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .input textarea {
   padding: none;
-  background: black !important;
-  border-radius: 6px;
-  box-shadow: 0 0 5px 0 black;
+  background: transparent;
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .actions .cancel {
   color: red;
-  background: black !important;
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .actions .save {
   color: white;
-  background: black !important;
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .reply {
-  background: black !important;
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-feed .activity-entry .list.small .details .status a {
+  animation: linkColors 2s linear infinite;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-feed .activity-entry .wrap {
-  background: black !important;
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
   color: antiquewhite;
 }
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-feed .activity-entry .wrap .text .header a[class=avatar] {
+  border-top: 2px solid #ed4c67;
+  position: relative;
+  border-radius: 50%;
+  animation: avatarAnimation 2s linear infinite;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-feed .activity-entry .wrap .text .header a[class=avatar]::after, .page-content .user .content.container .overview .section .activity-feed-wrap .activity-feed .activity-entry .wrap .text .header a[class=avatar]::before {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-feed .activity-entry .wrap .text .header a[class=avatar]::after {
+  content: "";
+  border: 2px solid #d980fa;
+  transform: rotate(120deg);
+}
+.page-content .user .content.container .overview .section .activity-feed-wrap .activity-feed .activity-entry .wrap .text .header a[class=avatar]::before {
+  content: "";
+  border: 2px solid #0652dd;
+  transform: rotate(240deg);
+}
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-feed .activity-entry .reply-wrap .activity-replies .reply {
-  background: black !important;
+  background: #00000080 !important;
   border-radius: 6px;
   box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
 }
 .page-content .user .content.container .overview .section .scroller .load-more {
-  background: black !important;
-  box-shadow: 0 0 5px 0 black;
+  background: #00000080 !important;
   border-radius: 6px;
-}
-
-.wrap[data-v-a5dce466] {
-  display: none;
+  box-shadow: 0 0 5px 0 black;
+  backdrop-filter: blur(3px);
+  color: #dcdde1;
 }
 
 .content.container .medialist .row {
-  background: black !important;
+  background: #00000080 !important;
 }
 .content.container .medialist .filters-wrap input {
-  background: black !important;
+  background: #00000080 !important;
 }
 .content.container .medialist .filters-wrap .filer-mobile-wrap .entry-filer input {
-  background: black !important;
+  background: #00000080 !important;
 }
 .content.container .medialist .filters-wrap .filters .filter-group .input {
-  background: black !important;
+  background: #00000080 !important;
 }
 .content.container .medialist .filters-wrap .filters .filter-group .active {
-  background: black !important;
+  background: #00000080 !important;
 }
 .content.container .medialist .filters-wrap .filters .filter-group .format div input {
-  background: black !important;
+  background: #00000080 !important;
 }
 .content.container .medialist .filters-wrap .filters .filter-group .format div span span {
   background: #00001e;
 }
 .content.container .medialist .lists .actions .theme-switch {
-  background: black !important;
+  background: #00000080 !important;
 }
 
 .el-select-dropdown.el-popper .el-scrollbar div ul {
-  background: black !important;
+  background: #00000080 !important;
 }
 .el-select-dropdown.el-popper .el-scrollbar div ul li:hover {
   color: #00001e;
