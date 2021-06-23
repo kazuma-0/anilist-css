@@ -1,0 +1,18 @@
+// custom scrollbar generated using https://www.w3generator.com/scrollbar
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: #d885ff;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(13deg, #d371f7 14%, #ea61ff 64%);
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 8px;
+    box-shadow: inset 7px 10px 12px #302d2d;
+}

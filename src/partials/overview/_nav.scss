@@ -11,6 +11,8 @@ div.nav {
         height: 50px;
         width: 50px;
         background-image: $bgimg;
+        background-size: contain;
+        background-repeat: no-repeat;
       }
     }
     .links {

@@ -1,0 +1,9 @@
+.list-stats.content-wrap {
+  @include container-mod;
+  &:nth-child(2) {
+    margin-top: 10px;
+  }
+  .footer {
+    display: none;
+  }
+}

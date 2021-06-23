@@ -1,0 +1,32 @@
+@keyframes avatarAnimation {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes linkColors {
+  0% {
+    color: #e6aaff;
+  }
+  50% {
+    color: #67ff65;
+  }
+  100% {
+    color: #47d0ef;
+  }
+}
+
+@keyframes btnAnimation {
+  0% {
+    top: -110%;
+    left: 90%;
+  }
+  50% {
+    top: 10%;
+    left: -30%;
+  }
+  100% {
+    top: -100%;
+    left: -100%;
+  }
+}

@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap");
-@import "partials/_mixins";
-@import "partials/_variables";
-@import "partials/_root";
-@import "partials/_nav";
-@import "partials/_header";
-@import "partials/_page-content";
-@import "partials/_footer";
-@import "partials/_animeList";
+
+@import 'partials/main/root';
+@import 'partials/main/variables';
+@import 'partials/main/mixins';
+@import 'partials/main/animations';
+@import 'partials/main/scrollbar';
+
+
+@import 'partials/overview/header';
+@import 'partials/overview/nav';
+@import 'partials/overview/footer';
+@import 'partials/overview/page-content';
+
+@import 'partials/animelist/animeList';

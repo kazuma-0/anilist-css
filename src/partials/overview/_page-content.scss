@@ -1,0 +1,53 @@
+.page-content {
+  background: $page-content;
+  background-image: $primary-bg;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  //^ sets the background image.
+  .user {
+    @import "./page_content/header-wrap";
+    .content.container {
+      .overview {
+        .section {
+          .stats-wrap {
+            @import "./page_content/list-stats";
+          }
+          .about {
+            .content-wrap {
+              @include container-mod;
+              .markdown {
+                @import "./page_content/markdown";
+              }
+            }
+          }
+          .desktop {
+            .activity-history {
+              @include container-mod;
+            }
+
+            .genre-overview {
+              @include container-mod;
+            }
+
+            .favourites-wrap {
+              @include container-mod;
+              padding: 10px !important;
+            }
+          }
+          .activity-feed-wrap {
+            .activity-edit {
+              @import "./page_content/list-stats";
+              @import "./page_content/_activity-edit.scss";
+            }
+            @import "./page_content/activity-feed-wrap";
+          }
+          .scroller {
+            .load-more {
+              @include container-mod;
+            }
+          }
+        }
+      }
+    }
+  }
+}

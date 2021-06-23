@@ -1,0 +1,63 @@
+.content.container {
+	.medialist {
+		.row {
+			background: $primary;
+		}
+		.filters-wrap {
+			input {
+				background: $primary;
+			}
+			.filer-mobile-wrap {
+				.entry-filer {
+					input {
+						background: $primary;
+					}
+				}
+			}
+			.filters {
+				.filter-group {
+					.input {
+						background: $primary;
+					}
+					.active {
+						background: $primary;
+					}
+					.format {
+						div {
+							input {
+								background: $primary;
+							}
+							span {
+								span {
+									background: $page-content;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.lists {
+			.actions {
+				.theme-switch {
+					background: $primary;
+				}
+			}
+		}
+	}
+}
+
+.el-select-dropdown.el-popper {
+	.el-scrollbar {
+		div {
+			ul {
+				background: $primary;
+				li {
+					&:hover {
+						color: $page-content;
+					}
+				}
+			}
+		}
+	}
+}

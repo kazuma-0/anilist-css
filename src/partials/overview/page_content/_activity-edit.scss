@@ -1,0 +1,29 @@
+.markdown-editor {
+    @include container-mod;
+}
+.preview.activity-text {
+    .wrap {
+        @include container-mod;
+    }
+}
+.input {
+    padding-bottom: 0;
+    @include container-mod;
+    textarea {
+        padding: none;
+        background: transparent;
+    }
+}
+.actions {
+    .cancel {
+        color: red;
+        @include container-mod;
+    }
+    .save {
+        color: white;
+        @include container-mod;
+    }
+}
+.reply {
+    @include container-mod;
+}

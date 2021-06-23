@@ -1,0 +1,27 @@
+// avatar animation.
+
+a[class="avatar"] {
+    border-top: 2px solid $barared;
+    position: relative;
+    border-radius: 50%;
+    animation: avatarAnimation 2s linear infinite;
+
+    &::after,
+    &::before {
+        content: "";
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    &::after {
+        content: "";
+        border: 2px solid $lavendertea;
+        transform: rotate(120deg);
+    }
+    &::before {
+        content: "";
+        border: 2px solid $merchantmarineblue;
+        transform: rotate(240deg);
+    }
+}

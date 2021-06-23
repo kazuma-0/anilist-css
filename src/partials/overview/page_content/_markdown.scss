@@ -1,0 +1,23 @@
+center {
+    div {
+        border-radius: $radius;
+        box-shadow: $shadow;
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        display: flex;
+        padding: 5px;
+        animation-name: rainbow !important;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        a {
+            color: black !important;
+            animation: none;
+            font-weight: bold !important;
+        }
+        &:hover {
+            transition: 1s;
+            transform: scale(1.2);
+        }
+    }
+}

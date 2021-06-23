@@ -1,0 +1,32 @@
+.activity-feed {
+    .activity-entry {
+        .list.small {
+            .details {
+                .status {
+                    a {
+                        animation: linkColors 2s linear infinite;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        .wrap {
+            @include container-mod;
+            color: antiquewhite;
+            .text {
+                .header {
+                    //for avatar animation.
+                    @import "../partials/avatar";
+                }
+            }
+        }
+        .reply-wrap {
+            .activity-replies {
+                .reply {
+                    @include container-mod;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.header-wrap {
+    .nav-wrap {
+        margin-top: 15px;
+        background: $tbg;
+        .container {
+            @include container-mod;
+            background: black !important;
+            a {
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
