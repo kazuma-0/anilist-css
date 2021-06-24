@@ -99,6 +99,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
   background: black !important;
 }
 .page-content .user .header-wrap .nav-wrap .container a:hover {
@@ -110,6 +111,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 .page-content .user .content.container .overview .section .stats-wrap .list-stats.content-wrap:nth-child(2) {
   margin-top: 10px;
@@ -123,6 +125,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 .page-content .user .content.container .overview .section .about .content-wrap .markdown center div {
   border-radius: 6px;
@@ -151,6 +154,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 .page-content .user .content.container .overview .section .desktop .genre-overview {
   background: #00000080 !important;
@@ -158,6 +162,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 .page-content .user .content.container .overview .section .desktop .favourites-wrap {
   background: #00000080 !important;
@@ -165,6 +170,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
   padding: 10px !important;
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .list-stats.content-wrap {
@@ -173,6 +179,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .list-stats.content-wrap:nth-child(2) {
   margin-top: 10px;
@@ -186,6 +193,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .preview.activity-text .wrap {
   background: #00000080 !important;
@@ -193,6 +201,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .input {
   padding-bottom: 0;
@@ -201,6 +210,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .input textarea {
   padding: none;
@@ -213,6 +223,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .actions .save {
   color: white;
@@ -221,6 +232,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-edit .reply {
   background: #00000080 !important;
@@ -228,6 +240,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-feed .activity-entry .list.small .details .status a {
   animation: linkColors 2s linear infinite;
@@ -240,6 +253,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
   color: antiquewhite;
 }
 .page-content .user .content.container .overview .section .activity-feed-wrap .activity-feed .activity-entry .wrap .text .header a[class=avatar] {
@@ -271,6 +285,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 .page-content .user .content.container .overview .section .scroller .load-more {
   background: #00000080 !important;
@@ -278,6 +293,7 @@ div.nav .wrap .links .browse-wrap {
   box-shadow: 0 0 5px 0 black;
   backdrop-filter: blur(3px);
   color: #dcdde1;
+  -webkit-backdrop-filter: blur(3px);
 }
 
 .content.container .medialist .row {
